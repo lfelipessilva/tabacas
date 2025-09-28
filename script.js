@@ -391,9 +391,9 @@ function filtroProdutos() {
         botao.className = 'btn-filtro';
         botao.style.cssText = `
             padding: 10px 20px;
-            border: 2px solid #e74c3c;
-            background: ${categoria === 'Todos' ? '#e74c3c' : 'transparent'};
-            color: ${categoria === 'Todos' ? 'white' : '#e74c3c'};
+            border: 2px solid #3498db;
+            background: ${categoria === 'Todos' ? '#3498db' : 'transparent'};
+            color: ${categoria === 'Todos' ? 'white' : '#3498db'};
             border-radius: 25px;
             cursor: pointer;
             font-weight: 600;
@@ -411,9 +411,9 @@ function filtrarProdutos(categoria, botaoAtivo) {
     // Atualizar botões ativos
     document.querySelectorAll('.btn-filtro').forEach(btn => {
         btn.style.background = 'transparent';
-        btn.style.color = '#e74c3c';
+        btn.style.color = '#3498db';
     });
-    botaoAtivo.style.background = '#e74c3c';
+    botaoAtivo.style.background = '#3498db';
     botaoAtivo.style.color = 'white';
     
     // Filtrar produtos
