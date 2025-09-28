@@ -171,7 +171,7 @@ const produtos = [
     {
         id: 22,
         nome: "Seda Slim",
-        categoria: "Acessórios",
+        categoria: "Seda",
         descricao: "Seda slim ultra fina para cigarros artesanais com queima lenta e uniforme.",
         preco: "R$ 3,50",
         icone: "📄"
@@ -179,7 +179,7 @@ const produtos = [
     {
         id: 23,
         nome: "Seda Branca",
-        categoria: "Acessórios",
+        categoria: "Seda",
         descricao: "Seda branca clássica para cigarros artesanais com cola natural e sabor neutro.",
         preco: "R$ 3,00",
         icone: "📄"
@@ -407,7 +407,7 @@ function filtroProdutos() {
         flex-wrap: wrap;
     `;
     
-    const categorias = ['Todos', 'Cigarros', 'Charutos', 'Acessórios', 'Tabaco', 'Vapes'];
+    const categorias = ['Todos', 'Cigarros', 'Charutos', 'Acessórios', 'Tabaco', 'Vapes', 'Seda'];
     
     categorias.forEach(categoria => {
         const botao = document.createElement('button');
