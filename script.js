@@ -167,6 +167,22 @@ const produtos = [
         descricao: "Pod descartável Lost Mary com 10.000 puffs e sabor intenso de frutas.",
         preco: "R$ 89,90",
         icone: "💨"
+    },
+    {
+        id: 22,
+        nome: "Seda Slim",
+        categoria: "Acessórios",
+        descricao: "Seda slim ultra fina para cigarros artesanais com queima lenta e uniforme.",
+        preco: "R$ 3,50",
+        icone: "📄"
+    },
+    {
+        id: 23,
+        nome: "Seda Branca",
+        categoria: "Acessórios",
+        descricao: "Seda branca clássica para cigarros artesanais com cola natural e sabor neutro.",
+        preco: "R$ 3,00",
+        icone: "📄"
     }
 ];
 
