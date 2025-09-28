@@ -159,6 +159,14 @@ const produtos = [
         descricao: "Tabaco aromático para narguilé com sabor de frutas tropicais.",
         preco: "R$ 35,00",
         icone: "🌿"
+    },
+    {
+        id: 21,
+        nome: "Pod Lost Mary 10mil Puffs",
+        categoria: "Vapes",
+        descricao: "Pod descartável Lost Mary com 10.000 puffs e sabor intenso de frutas.",
+        preco: "R$ 89,90",
+        icone: "💨"
     }
 ];
 
@@ -383,7 +391,7 @@ function filtroProdutos() {
         flex-wrap: wrap;
     `;
     
-    const categorias = ['Todos', 'Cigarros', 'Charutos', 'Acessórios', 'Tabaco'];
+    const categorias = ['Todos', 'Cigarros', 'Charutos', 'Acessórios', 'Tabaco', 'Vapes'];
     
     categorias.forEach(categoria => {
         const botao = document.createElement('button');
